@@ -70,6 +70,7 @@ if [[ -e "/data/data/com.termux/files/usr/lib//start.sh" ]]; then
 		fi		
 
 	else
+		chmod 777 *
 		mv -v ngrok /data/data/com.termux/files/usr/bin/
 		bash tst.sh
 
@@ -79,6 +80,8 @@ if [[ -e "/data/data/com.termux/files/usr/lib//start.sh" ]]; then
 else
 			clear	
 			printf "\e[31m[\e[32m!\e[31m]\e[31mToolu hackleyerek giriş yapılmaya çalışıldı!"
+			cd ..
+			rm -rf T-Pluas
 			sleep 2
 			exit
 

